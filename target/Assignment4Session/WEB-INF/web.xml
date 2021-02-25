@@ -1,0 +1,169 @@
+
+
+<web-app>
+
+
+
+
+  <servlet>
+    <servlet-name>firsts1</servlet-name>
+    <servlet-class>org.example.sectionOne.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>firsts1</servlet-name>
+    <url-pattern>/FirstSectionServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>firsts2</servlet-name>
+    <servlet-class>org.example.sectionOne.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>firsts2</servlet-name>
+    <url-pattern>/FirstSectionServlet2</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>org.example.sectionTwo.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/SecondSectionLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ProfileServlet</display-name>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>org.example.sectionTwo.ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/SecondSectionProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogoutServlet</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>org.example.sectionTwo.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/SecondSectionLogoutServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>Thirds1</servlet-name>
+    <servlet-class>org.example.sessionThree.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Thirds1</servlet-name>
+    <url-pattern>/ThirdSectionServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Thirds2</servlet-name>
+    <servlet-class>org.example.sessionThree.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Thirds2</servlet-name>
+    <url-pattern>/ThirdSectionServlet2</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+    <servlet-name>fours1</servlet-name>
+    <servlet-class>org.example.sessionFour.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fours1</servlet-name>
+    <url-pattern>/FourthSectionServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>fours2</servlet-name>
+    <servlet-class>org.example.sessionFour.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>fours2</servlet-name>
+    <url-pattern>/FourthSectionServlet2</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+  <servlet>
+    <servlet-name>Fives1</servlet-name>
+    <servlet-class>org.example.sessionFive.FirstServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Fives1</servlet-name>
+    <url-pattern>/FifthSectionServlet1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Fives2</servlet-name>
+    <servlet-class>org.example.sessionFive.SecondServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Fives2</servlet-name>
+    <url-pattern>/FifthSectionServlet2</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+  <servlet>
+    <description></description>
+    <display-name>SixthLoginServlet</display-name>
+    <servlet-name>SixthLoginServlet</servlet-name>
+    <servlet-class>org.example.sessionSix.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SixthLoginServlet</servlet-name>
+    <url-pattern>/SixthSectionLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SixthProfileServlet</display-name>
+    <servlet-name>SixthProfileServlet</servlet-name>
+    <servlet-class>org.example.sessionSix.ProfileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SixthProfileServlet</servlet-name>
+    <url-pattern>/SixthSectionProfileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SixthLogoutServlet</display-name>
+    <servlet-name>SixthLogoutServlet</servlet-name>
+    <servlet-class>org.example.sessionSix.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SixthLogoutServlet</servlet-name>
+    <url-pattern>/SixthSectionLogoutServlet</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>
